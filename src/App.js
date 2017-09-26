@@ -80,7 +80,7 @@ class App extends Component {
     return (
       <div>
         <div style={styles.left}>
-          <div style={styles.logo}>menu</div>
+          <div style={styles.logo}>menu0926</div>
           <MuiThemeProvider>
             <Paper>
               <Menu width={200} menuItemStyle={{ width: 200 }}>
