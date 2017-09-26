@@ -1,0 +1,46 @@
+{
+  "name": "react-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --progress --config webpack.dev.js --open --port 3006",
+    "pub": "webpack --progress --config webpack.prd.js"
+  },
+  "dependencies": {
+    "echarts": "^3.7.1",
+    "echarts-for-react": "^2.0.0",
+    "express": "^4.15.5",
+    "font-awesome": "^4.7.0",
+    "lodash": "^4.17.4",
+    "lodash.merge": "^4.6.0",
+    "lodash.throttle": "^4.1.1",
+    "material-ui": "^0.19.2",
+    "moment": "^2.18.1",
+    "mongodb": "^2.2.31",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router-dom": "^4.2.2",
+    "recharts": "^1.0.0-apha.5",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-import": "^1.5.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  }
+}
